@@ -1,0 +1,14 @@
+{
+  "socketPath": "/tmp/mcp-i5pSgQ/mcp.sock",
+  "scheme": "unix",
+  "headers": {
+    "Authorization": "Nonce 326fe999-ea9b-4ba3-9079-a4f9f6081a46"
+  },
+  "pid": 2273,
+  "ideName": "Visual Studio Code",
+  "timestamp": 1777066708279,
+  "workspaceFolders": [
+    "/home/ec2-user/nextwork-web-project"
+  ],
+  "isTrusted": true
+}
