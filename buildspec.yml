@@ -8,7 +8,6 @@ phases:
     commands:
       - echo Logging in to AWS CodeArtifact...
       - CODEARTIFACT_AUTH_TOKEN=`aws codeartifact get-authorization-token --domain nextwork --domain-owner 616150220421 --region eu-north-1 --query authorizationToken --output text`
-      - export CODEARTIFACT_AUTH_TOKEN
     build:
     commands:
       - echo "====== BEGINNING TEST PHASE ======"
